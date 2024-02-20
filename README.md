@@ -1,4 +1,4 @@
-# Swapping-two-values
+![image](https://github.com/Balaji-Jothiramalingam/Swapping-two-values/assets/114234865/8719b707-d039-4ef8-9e97-3b391080cf8c)# Swapping-two-values
 ## AIM:
 To write a python program for swapping of two values
 ## EQUIPEMENT'S REQUIRED: 
@@ -18,6 +18,23 @@ Print both the values it would be interchanged
 ### Step 6: 
 End the program
 ## PROGRAM:
+```
+# Initial values
+surya_ball = input()
+vijay_ball = input()
+
+# Swapping using a temporary variable
+temp = surya_ball
+surya_ball = vijay_ball
+vijay_ball = temp
+
+print("Swapped values are:", surya_ball, vijay_ball)
+
+````
+## OUTPUT:
+
+``
+![p1](https://github.com/Balaji-Jothiramalingam/Swapping-two-values/assets/114234865/c69fce5a-e6d5-4cf3-886c-7cd88e0e9adf)
 
 
 
